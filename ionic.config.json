@@ -1,0 +1,7 @@
+{
+  "name": "YELL",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
