@@ -2,6 +2,21 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+
+
+@font-face {
+  font-family: 'kalam-bold';
+  src: url("/assets/fonts/Kalam-Bold.ttf");
+}
+@font-face {
+  font-family: 'kalam-light';
+  src: url("/assets/fonts/Kalam-Light.ttf");
+}
+@font-face {
+  font-family: 'kalam-regular';
+  src: url("/assets/fonts/Kalam-Regular.ttf");
+}
+
 :root {
   /** primary **/
   --ion-color-primary: #1A73E9;
@@ -74,6 +89,7 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
 }
 
 @media (prefers-color-scheme: dark) {
